@@ -1,0 +1,46 @@
+
+#include<iostream>                                                                                                                                          using namespace std;
+int main()
+{
+int a;
+float area;
+cout<<"enter a";
+cin>>a;
+area= a*a;
+cout<<"area="<<area;
+return 0;                                                                                                                                                   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PS C:\Users\TITU> g++ T8.cpp -o T8
+PS C:\Users\TITU> ./T8
+enter a 5
+area=25

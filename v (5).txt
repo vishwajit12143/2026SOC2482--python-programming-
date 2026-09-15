@@ -1,0 +1,50 @@
+  GNU nano 2.7.5                                                        File: project6.cpp
+
+#include<iostream>
+using namespace std;
+int main()
+{
+int a, b;
+cout<<"enter a,b:";
+cin>>a;
+cin>>b;
+a=a+b;
+b=a-b;
+a=a-b;
+cout<<"a="<<a;
+cout<<"b="<<b;
+return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PS C:\Users\TITU> g++ project6.cpp -o project6
+PS C:\Users\TITU> ./project6
+enter a,b:5 6
+a=6b=5
+PS C:\Users\TITU>

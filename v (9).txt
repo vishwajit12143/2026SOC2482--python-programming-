@@ -1,0 +1,47 @@
+
+#include<iostream>
+using namespace std;
+int main()
+{
+int a,b;
+cout<<"enter a,b";
+cin>>a>>b;
+a=a+b;
+b=a-b;
+a=a-b;
+cout<<"a="<<a;
+cout<<"b="<<b;
+return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PS C:\Users\TITU> g++ T10.cpp -o T10
+PS C:\Users\TITU> ./T10
+enter a,b 5 9
+a=9b=5
